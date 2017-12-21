@@ -1,7 +1,7 @@
 import 'bootstrap';
 import Holder from 'holderjs';
 import $ from 'jquery';
-
+// styling 
 import './styles/index.scss';
 
 /*

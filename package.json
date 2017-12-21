@@ -10,7 +10,7 @@
     "build:dev": "npm run rmrf && webpack --env.development",
     "build:prod": "npm run rmrf && webpack -p --env.production",
     "build": "npm run build:dev",
-    "server": "webpack-dev-server --env.development --content-base dist --open --inline --hot --host 0.0.0.0",
+    "server": "webpack-dev-server --env.development --content-base dist --open --inline --hot --host 0.0.0.0 --watch",
     "server:prod": "webpack-dev-server --env.production --content-base dist --host 0.0.0.0"
   },
   "dependencies": {
